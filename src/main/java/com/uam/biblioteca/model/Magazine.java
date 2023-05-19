@@ -1,0 +1,12 @@
+package com.uam.biblioteca.model;
+
+import lombok.Data;
+
+import javax.persistence.Entity;
+
+@Entity
+@Data
+public class Magazine extends Publication{
+
+    private String edicion;
+}
